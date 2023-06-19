@@ -16,6 +16,8 @@ tab1, tab2 = st.tabs(tabs)
 
 # Display selected tab
 with tab1:
+            
+    st.write('This Page Made By: Youssef Sameh USING Python')
     st.title('Data Analytics Dashboard in Looker Studio & Google Sheet ')
     st.divider()
     
@@ -64,6 +66,7 @@ with tab1:
     
     
 with tab2:
+    st.write('This Page Made By: Youssef Sameh USING Python')
     st.title('Data Analytics Dashboard in Looker Studio & Google Sheet ')
     st.divider()
             
