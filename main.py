@@ -21,6 +21,8 @@ with tab1:
     
     st.header('About:')
     st.write('By: Youssef Sameh\n\nIn: April 2023\n\ncontact: youssefpasha49@gmail.com')
+    st.write('Data Analyst')
+    st.write('Python, SQL, Tableau, Excel, Looker, Statistics')
     st.divider()
     
     st.header('Project Description:')
@@ -67,6 +69,8 @@ with tab2:
             
     st.header('حول:')
     st.write('بواسطة: يوسف سامح\n\nفي: أبريل 2023\n\nالاتصال: youssefpasha49@gmail.com')
+    st.write('Data Analyst')
+    st.write('Python, SQL, Tableau, Excel, Looker, Statistics')
     st.divider()
 
     st.header('وصف المشروع:')
