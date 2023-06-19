@@ -9,7 +9,6 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-
 # Create tabs
 tabs = ['English', 'Arabic']
 tab1, tab2 = st.tabs(tabs)
@@ -37,6 +36,7 @@ with tab1:
     import looker_sdk
     html = f'<iframe width="600" height="475" src="https://lookerstudio.google.com/embed/reporting/0ab9ee33-6e48-4497-b617-3bb1c5d266ff/page/s30MD" frameborder="0" style="border:0" allowfullscreen></iframe>'
     st.markdown(html, unsafe_allow_html=True)
+    st.write('link: https://lookerstudio.google.com/s/q-KsZJJ2J40')
     st.divider()
     
     st.header('Google Sheet:')
@@ -45,6 +45,7 @@ with tab1:
     url = 'https://docs.google.com/spreadsheets/d/1HwfvKxMfTKGJVS6RUa6gSdqstuVKWajKxrk4NyHnEv4/export?format=csv&usp==sharing'
     df = pd.read_csv(url)
     df
+    st.write('Link: https://docs.google.com/spreadsheets/d/1HwfvKxMfTKGJVS6RUa6gSdqstuVKWajKxrk4NyHnEv4/edit?usp=sharing')
     st.divider()
     
     st.header('Javascript')
@@ -81,6 +82,7 @@ with tab2:
     import looker_sdk
     html = f'<iframe width="600" height="475" src="https://lookerstudio.google.com/embed/reporting/0ab9ee33-6e48-4497-b617-3bb1c5d266ff/page/s30MD" frameborder="0" style="border:0" allowfullscreen></iframe>'
     st.markdown(html, unsafe_allow_html=True)
+    st.write('Link: https://lookerstudio.google.com/s/q-KsZJJ2J40')
     st.divider()
 
     st.header('Google Sheet')
@@ -89,6 +91,7 @@ with tab2:
     url = 'https://docs.google.com/spreadsheets/d/1HwfvKxMfTKGJVS6RUa6gSdqstuVKWajKxrk4NyHnEv4/export?format=csv&usp==sharing'
     df = pd.read_csv(url)
     df
+    st.write('Link: https://docs.google.com/spreadsheets/d/1HwfvKxMfTKGJVS6RUa6gSdqstuVKWajKxrk4NyHnEv4/edit?usp=sharing')
     st.divider()
     
     st.header('Javascript')
