@@ -39,7 +39,7 @@ with tab1:
     st.markdown(html, unsafe_allow_html=True)
     st.divider()
     
-    st.header('Project Explanation:')
+    st.header('Google Sheet:')
     st.write(''' The data in Google Sheets consists of the following columns:\n\n1- Tasks: This column contains the name of the task being executed.\n\n2- date_start: This column contains the start date of the task.\n\n3- date_end: This column contains the end date of the task.\n\n4- Employee: This column contains the name of the employee who is responsible for executing the task.\n\n5- Supervisor: This column contains the name of the supervisor who is monitoring the task.\n\n6- Status: This column contains the status of the task (completed, in progress, canceled).\n\n7- Priority: This column contains the priority level of the task (low, medium, high).\n\n8- Category: This column contains the category of the task (e.g., marketing, development, management).\n\n9- Finished: This column contains the percentage of completion of the task.\n\n10- expected_end_period_days: This column contains the expected period for completing the task.\n\n11- actual_end_period_days: This column contains the actual period taken to complete the task.\n\n12- Description: This column contains a detailed description of the task.\n\n13- Comments: This column contains comments and notes related to the task.\n\n14- Attachment: This column contains any attachments or files related to the task.''')
     import pandas as pd
     url = 'https://docs.google.com/spreadsheets/d/1HwfvKxMfTKGJVS6RUa6gSdqstuVKWajKxrk4NyHnEv4/export?format=csv&usp==sharing'
@@ -83,7 +83,7 @@ with tab2:
     st.markdown(html, unsafe_allow_html=True)
     st.divider()
 
-    st.header('شرح المشروع:')
+    st.header('Google Sheet')
     st.write(''' البيانات في جوجل شيت تتكون من الأعمدة التالية:\n\n1- المهام: تحتوي هذه العمود على اسم المهمة التي يتم تنفيذها.\n\n2- تاريخ البدء: يحتوي هذا العمود على تاريخ بدء المهمة.\n\n3- تاريخ الانتهاء: يحتوي هذا العمود على تاريخ انتهاء المهمة.\n\n4- الموظف: يحتوي هذا العمود على اسم الموظف المسؤول عن تنفيذ المهمة.\n\n5- المشرف: يحتوي هذا العمود على اسم المشرف الذي يراقب المهمة.\n\n6- الحالة: يحتوي هذا العمود على حالة المهمة (مكتملة، قيد التنفيذ، ملغاة).\n\n7- الأولوية: يحتوي هذا العمود على مستوى الأولوية للمهمة (منخفضة، متوسطة، عالعالية).\n\n8- الفئة: يحتوي هذا العمود على فئة المهمة (على سبيل المثال، التسويق، التطوير، الإدارة).\n\n9- الانتهاء: يحتوي هذا العمود على نسبة الانتهاء من المهمة.\n\n10- المدة المتوقعة للانتهاء: يحتوي هذا العمود على المدة المتوقعة لإنجاز المهمة.\n\n11- المدة الفعلية للانتهاء: يحتوي هذا العمود على المدة الفعلية التي استغرقت لإنجاز المهمة.\n\n12- الوصف: يحتوي هذا العمود على وصف مفصل للمهمة.\n\n13- التعليقات: يحتوي هذا العمود على تعليقات وملاحظات متعلقة بالمهمة.\n\n14- المرفقات: يحتوي هذا العمود على أي مرفقات أو ملفات متعلقة بالمهمة.''')
     import pandas as pd
     url = 'https://docs.google.com/spreadsheets/d/1HwfvKxMfTKGJVS6RUa6gSdqstuVKWajKxrk4NyHnEv4/export?format=csv&usp==sharing'
