@@ -1,0 +1,2 @@
+looker_sdk==23.10.0
+pandas==1.5.3
