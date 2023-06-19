@@ -61,6 +61,9 @@ with tab1:
     
     
 with tab2:
+    st.title('Data Analytics Dashboard in Looker Studio & Google Sheet ')
+    st.divider()
+            
     st.header('حول:')
     st.write('بواسطة: يوسف سامح\n\nفي: أبريل 2023\n\nالاتصال: youssefpasha49@gmail.com')
     st.divider()
